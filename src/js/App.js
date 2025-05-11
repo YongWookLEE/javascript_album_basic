@@ -1,5 +1,5 @@
-import TabBar from "./js/components/TabBar";
-import Content from "./js/components/Content";
+import TabBar from "./components/TabBar";
+import Content from "./components/Content";
 
 export default function App($app) {
   const tabBar = new TabBar();
