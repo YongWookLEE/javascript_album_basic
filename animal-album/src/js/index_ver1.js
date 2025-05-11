@@ -2,9 +2,9 @@ const API_URL = "https://animal-api-two.vercel.app/";
 const $content = document.querySelector("div.content");
 
 const AlbumService = {
-  init: () => {
-    AlbumService.getData();
+  init: async () => {
     AlbumService.eventHandler();
+    await AlbumService.getData();
   },
 
   eventHandler: () => {
