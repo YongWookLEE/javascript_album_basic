@@ -18,6 +18,7 @@ export default function TabBar({ $app, initialState, onClick }) {
 
     let $currentTab = document.getElementById(this.state);
     $currentTab && ($currentTab.className = "clicked");
+    // A&&B A가 참일때 B를 실행, A가 거짓이면 A 반환
 
     const $tabBar = this.$target.querySelectorAll("div");
     $tabBar.forEach((elm) => {

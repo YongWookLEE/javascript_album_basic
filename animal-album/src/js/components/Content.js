@@ -7,7 +7,7 @@ export default function Content({ $app, initialState }) {
 
   this.template = () => {
     let temp = [];
-    console.log(initialState);
+
     if (this.state) {
       this.state.forEach((elm) => {
         temp += `<img src="${elm.url}"></img>`;
