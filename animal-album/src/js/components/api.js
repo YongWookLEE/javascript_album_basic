@@ -8,7 +8,7 @@ const request = async (kind) => {
   try {
     if (res) {
       let data = await res.json();
-      return data.photo;
+      return data.photos;
     }
   } catch (err) {
     console.log(err);
